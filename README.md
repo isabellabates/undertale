@@ -106,7 +106,9 @@ DEF: 0
 LV: 0
 Gold: 50
 Determination: 10000000000 :)
+```
 
+```
 ISABELLA INVENTORY
 1. Butterscotch Pie
 2. Toy Knife
