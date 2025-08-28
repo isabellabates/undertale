@@ -1,6 +1,8 @@
 # Undertale (Terminal Edition) — C++ Clone
+---
 
 <img width="639" height="361" alt="image" src="https://github.com/user-attachments/assets/c02f76f9-49b8-4567-adee-87a48f8add27" />
+
 
 A freshman-year project: a lightweight, text-based tribute to **Undertale**, written entirely in C++ and rendered in the terminal.  
 The game recreates the feel of Undertale with ASCII graphics, canonical dialogue, combat, puzzles, and exploration.
