@@ -1,0 +1,21 @@
+c,20,Monster Candy,Has a distinct non-licorice flavor.,10,0,0,0,0
+c,10,Bandage,It has already been used several times.,10,0,0,0,0
+c,0,Butterscotch Pie,Butterscotch-cinnamon pie. One slice.,20,0,0,0,0
+c,1,Nice Cream,Instead of a joke the wrapper says something nice.,15,0,0,0,15
+c,2,Bisicle,It is a two pronged popsicle so it is double the health!,22,0,0,0,25
+c,3,Unisicle,It is a SINGLE pronged popsicle. Wait thats just normal...,11,0,0,0,15
+c,4,Cinnamon Bunny,A cinnamon roll in the shape of a bunny.,22,0,0,0,25
+w,10,Stick,Its bark is worse than its bite.,0,2,0,0,0
+w,0,Toy Knife,Made of plastic. A rarity nowadays.,0,3,0,0,0
+w,1,Tough Glove,A worn pink leather glove. For five fingered folk.,0,5,0,0,20
+w,2,Ballet Shoes,These used shoes make you feel incredibly dangerous.,0,7,0,0,50
+w,3,Torn Notebook,Contains illegible scrawls. Increases DF by 6,0,2,6,0,55
+w,4,Burnt Pan,Damage is rather consistent.,0,10,0,0,70
+w,5,Worn Dagger,Perfect for cutting plants and vines.,0,15,15,0,0,0
+w,6,Real Knife,Here we are!,0,99,0,0,0,0
+a,0,Heart Locket,It says Best Friends Forever. Gives you an extra heart +20 HP.,20,0,0,1,0
+a,1,Faded Ribbon,Monsters will not hit you as hard if you are cuter.,0,0,3,0,10
+a,2,Manly Bandana,It has seen some wear. It has abs drawn on it.,0,0,7,0,50
+a,3,Old Tutu,Finally a protective piece of armor.,0,0,10,0,65
+a,4,Cloudy Glasses,Glasses marred with wear.,0,0,6,0,35
+a,5,Cowboy Hat,This battle worn hat makes you want to grow a beard. It also raises ATTACK by 5.,0,5,12,0,350
