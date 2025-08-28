@@ -10,6 +10,7 @@
 #include <cmath>
 #include <iomanip>
 #include <string>
+#include <array>
 using namespace std;
 
 // default constructor
@@ -110,23 +111,28 @@ int Encounter::readMonsters(string fileName)
                     string arr[50];
                     // apply split function to each line
                     int s = split1(line, ',', arr, 50);
-                    // declare r and save number of ratings in r
-                    int r = s - 1;
+                    // declare r
+                    int r = s;
                     // if split function does not output -1
                     if (r != -1)
                     {
-                        // declare temp array with size s
-                        string temp[s];
-                        // loop through elements in temp[]
-                        for (int i = 8; i < r; i++)
-                        {
-                            int j = 0;
-                            // save phrases in elements of temp
+                        std::array<std::string, 5> temp{};
+                        int j = 0;
+                        for (int i = 8; i < r && j < 5; ++i, ++j) {
                             temp[j] = arr[i];
-                            j++;
                         }
                         // make monster object out of data from arrays
-                        Monster m(stoi(arr[0]), arr[1], stoi(arr[2]), stoi(arr[3]), stoi(arr[4]), stoi(arr[5]), stoi(arr[6]), arr[7], temp);
+                        Monster m(
+                            stoi(arr[0]),        // mtype
+                            arr[1],              // mname
+                            stoi(arr[2]),        // mHP
+                            stoi(arr[3]),        // mATK
+                            stoi(arr[4]),        // mDF
+                            stoi(arr[5]),        // mLV
+                            stoi(arr[6]),        // mgold
+                            arr[7],              // intro
+                            temp.data()          // string[] pointer (size 5)
+                        );
                         // save monster objects in monsters
                         monsters.push_back(m);
                         // increment numMonster
