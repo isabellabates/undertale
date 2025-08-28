@@ -21,6 +21,7 @@ The game runs fully in the **terminal** and aims to be immersive, recreating the
   - `*` → Checkpoint/save point (The shadow of the ruins looms above, filling you with determination. HP fully restored.) 
 
 ```
+Puzzles: 0/7
 X-----------
 --*---------
 P-----------
@@ -33,6 +34,12 @@ P-----------
 ----P-------
 -----P------
 ------------
+Select one:
+1. Move
+2. View Status
+3. View Inventory
+4. Go to next room
+5. Back to start screen
 ```
 
 - **Encounters**  
@@ -42,6 +49,20 @@ P-----------
   - **Spare** → End the fight peacefully if conditions are met
   - **Use Item** → Heal or equip items from your inventory  
 
+```
+Whimsun approached meekly!
+╭―――――――――――――╮
+│             │
+│      ♥      │
+│             │
+╰―――――――――――――╯
+1. Fight
+2. Act
+3. Item
+4. Spare
+5. Flee
+```
+
 - **Dialogue**  
   The game includes **canonical Undertale conversations** (e.g., with Flowey, Toriel, and others) to capture the original feel.
 
@@ -49,14 +70,55 @@ P-----------
   Squares marked `P` on the map present trivia-style questions.  
   You must pass a certain number of puzzles to advance to the next room.
 
+```
+You must solve this puzzle to continue.
+If you were to code software in this language you would only be able to type 0s and 1s.
+1. Python
+2. C++
+3. Binary
+4. JavaScript
+```
+
 - **Shops**  
   Marked with `S`. Buy consumables, weapons, and armor just like in the real game.
+
+```
+Hello traveler. How can I help you?
+Select one:
+c. Consumables
+w. Weapons
+a. Armor
+e. Exit
+```
 
 - **Checkpoints**  
   Marked with `*`. Work like save points in Undertale.
 
 - **Stats & Inventory**  
   Players have HP, ATK, DEF, LV, Gold, and Souls, plus an inventory system for items, modeled on Undertale’s setup.
+
+```
+ISABELLA STATS
+Souls: 3
+HP: 76
+ATK: 3
+DEF: 0
+LV: 0
+Gold: 50
+Determination: 10000000000 :)
+
+ISABELLA INVENTORY
+1. Butterscotch Pie
+2. Toy Knife
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+```
 
 ---
 
