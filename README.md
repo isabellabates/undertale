@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0c12bce5-4047-4e47-9683-0f4bfe71ef8a" />
+<img width="1590" height="273" alt="undertale_logo" src="https://github.com/user-attachments/assets/52af0e07-5c11-4103-9b31-4bb6023ba406" />
 
 # Undertale (Terminal Edition) — C++ Clone
 
